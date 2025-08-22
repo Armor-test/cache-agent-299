@@ -1,0 +1,37 @@
+# CODEOWNERS file for cache-agent-299
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/team-notifications @Armor-test/squad-qa
+
+# Directory ownership
+/examples/ @Armor-test/dept-notifications @Armor-test/team-security @Armor-test/grp-reporting
+/pkg/ @Armor-test/grp-payments @Armor-test/team-logging
+/web/ @Armor-test/team-core @Armor-test/squad-qa @Armor-test/squad-cloud
+/test/ @Armor-test/team-core @Armor-test/dept-billing
+/ui/ @Armor-test/squad-qa @Armor-test/dept-data
+/styles/ @Armor-test/dept-billing @Armor-test/dept-identity @Armor-test/unit-design
+/data/ @Armor-test/dept-reliability @Armor-test/dept-data
+/controllers/ @Armor-test/squad-qa @Armor-test/squad-research @Armor-test/squad-api
+/common/ @Armor-test/grp-storage @Armor-test/grp-integration @Armor-test/squad-mobile
+/docs/ @Armor-test/squad-database @Armor-test/unit-cloud
+
+# File type ownership
+*.proto @Armor-test/dept-notifications @Armor-test/grp-payments @Armor-test/squad-mobile
+*.config @Armor-test/unit-devops @Armor-test/dept-automation
+*.rb @Armor-test/grp-integration @Armor-test/squad-qa
+*.tf @Armor-test/dept-release @Armor-test/dept-ui
+*.properties @Armor-test/grp-ui @Armor-test/squad-qa
+*.ts @Armor-test/unit-test @Armor-test/squad-ux
+*.java @Armor-test/squad-api @Armor-test/unit-cloud @Armor-test/team-reporting
+*.graphql @Armor-test/squad-cloud @Armor-test/squad-research
+*.php @Armor-test/team-notifications @Armor-test/team-research @Armor-test/dept-security
+*.sql @Armor-test/squad-search @Armor-test/unit-test
+*.tsx @Armor-test/unit-governance @Armor-test/squad-frontend
+*.rs @Armor-test/unit-design @Armor-test/team-security @Armor-test/dept-billing
+*.yml @Armor-test/squad-payments @Armor-test/unit-test
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+/src/**/security/ @Armor-test/security @Armor-test/compliance
